@@ -81,6 +81,27 @@
         display: none;
     }
 
+    #rodape img{
+        width: 90px;
+        margin-left: 10px;
+    }
+
+    #wid-1{
+        max-width: 90%;
+        font-size: 0.7em;
+        margin-left: 40px;
+        /* margin-top: -20px; */
+        line-height: 20px;
+    }
+
+    #wid-2{
+        font-size: 0.7em;
+        width: 70%;
+       text-align: center;
+        margin-top: 25px;
+        margin-left: -120px;
+    }
+
 }
 
 @media (max-width: 480px) {
