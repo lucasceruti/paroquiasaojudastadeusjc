@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#menu{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(221, 218, 218, 0.37);
+}
+
+.checkbtn{
+    float: right;
+    width: 90px;
+    height: 40px;
+    display: none;
+    color: white;
+    background-color: #000099f6;
+    border-radius: 15px 15px 15px 0;
+    text-transform: uppercase;
+}
+
+#check{
+    display: none;
+}
+
+#menu img{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#menu ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+#menu .sub-menu{
+    display: none;
+}
+
+#menu .sub-menu li:hover{
+    background-color: rgba(221, 218, 218, 0.37);
+}
+
+#menu ul li:hover > .sub-menu{
+    display: block;
+    text-align: left;
+    margin-left: 30%;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #EE554E;
+    
+}
+
+#menu a:hover{
+    color: #5AE44B;
+    transition: 0.3s;
+}
+
+#divisoria{
+    max-width: 80%;
+    margin: auto;
+}
+
+#rodape{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: rgba(221, 218, 218, 0.37);
+}
+
+#rodape img{
+    width: 120px;
+    float: left;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#wid-1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0, -50%);
+}
+
+#wid-2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(0, -50%);
+}
+

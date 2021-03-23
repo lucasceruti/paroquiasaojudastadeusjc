@@ -1,0 +1,106 @@
+
+@media (max-width: 1024px) {
+    #menu ul ~ hr{
+        max-width: 90%;
+    }
+
+    #rodape{
+        margin-top: -100px;
+    }
+
+    #wid-1{
+        font-size: 0.8em;
+        margin-left: 100px;
+        margin-top: -10px;
+        line-height: 20px;
+    }
+
+    #wid-2{
+        max-width: fit-content;
+        font-size: 0.8em;
+        margin-left: -210px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #menu img{
+        margin-left: 20px;
+    }
+
+    .checkbtn{
+        display: block;
+        top: 50%;
+        transform: translate(-50%, 120%);
+    }
+
+    .checkbtn p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0, 40%);
+    }
+
+    #menu ul{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(221, 218, 218);
+        top: 140px;
+        left: -100%;
+        transition: all .5s;
+    }
+   
+    #menu ul li{
+        display: block;
+        margin: 20px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 1.2em;
+    }
+      
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    #menu ul .sub-menu{
+        position: relative;
+        margin-top: -250px;
+        left: 130px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    #menu ul .sub-menu li{
+        margin: 0;
+    }
+
+    #menu ul ~ hr{
+        display: none;
+    }
+
+    #rodape{
+        margin-top: -100px;
+    }
+
+    #rodape img{
+        margin-left: 20px;
+    }
+
+    #wid-1{
+        font-size: 0.8em;
+        margin-left: 70px;
+        margin-top: -20px;
+        line-height: 20px;
+    }
+
+    #wid-2{
+        font-size: 0.8em;
+        width: 70%;
+        margin: auto;
+        margin-top: 25px;
+        margin-left: -120px;
+    }
+}
