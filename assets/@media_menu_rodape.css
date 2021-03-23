@@ -67,7 +67,7 @@
 
     #menu ul .sub-menu{
         position: relative;
-        margin-top: -250px;
+        margin-top: -200px;
         left: 130px;
         font-size: 0.8em;
         text-align: center;
@@ -81,25 +81,26 @@
         display: none;
     }
 
-    #rodape{
-        margin-top: -100px;
-    }
+}
 
+@media (max-width: 480px) {
     #rodape img{
-        margin-left: 20px;
+        width: 90px;
+        margin-left: 10px;
     }
 
     #wid-1{
-        font-size: 0.8em;
-        margin-left: 70px;
-        margin-top: -20px;
+        max-width: 90%;
+        font-size: 0.7em;
+        margin-left: 40px;
+        /* margin-top: -20px; */
         line-height: 20px;
     }
 
     #wid-2{
-        font-size: 0.8em;
+        font-size: 0.7em;
         width: 70%;
-        margin: auto;
+       text-align: center;
         margin-top: 25px;
         margin-left: -120px;
     }
