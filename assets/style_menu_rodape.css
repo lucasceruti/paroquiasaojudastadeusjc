@@ -47,6 +47,11 @@
     height: 40px;
     text-transform: uppercase;
     line-height: 40px;
+    color: #EE554E;
+}
+
+#menu li:hover{
+    color: #5AE44B;
 }
 
 #menu .sub-menu{
