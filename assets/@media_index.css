@@ -50,14 +50,9 @@
         font-size: 1.7em;
     }
 
-    #youtube{
-        float: none;
-        width: 100%;
-        
+    #programacao{
+        display: block;
+        text-align: center;
     }
-    
-    #facebook{
-        float: none;
-        width: 100%;
-    }
+
 }
