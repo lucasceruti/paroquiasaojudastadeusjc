@@ -42,7 +42,9 @@
         font-size: 1.7em;
     }
 
-    section#contribuicao > p {
+    section#contribuicao > p{
+        margin-left: 10px;
+        text-align: center;
         line-height: 30px;
     }
 
